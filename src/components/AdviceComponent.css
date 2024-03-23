@@ -1,0 +1,73 @@
+.mainFrame {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  position: relative;
+
+  height: 50%;
+  width: 50%;
+
+  background-color: hsl(217, 19%, 24%);
+
+  border-radius: 25px;
+  padding: 50px;
+}
+
+.mainFrame p {
+  font-size: 1.75rem;
+  color: hsl(193, 38%, 86%);
+
+  text-align: center;
+}
+
+.mainFrame h2 {
+  color: hsl(150, 100%, 66%);
+}
+
+#divideDesktop {
+  width: 100%;
+}
+
+.outsideButton {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+
+  background-color: hsl(150, 100%, 66%);
+
+  cursor: pointer;
+}
+
+.outsideButton:hover {
+  box-shadow: 0 0 80px hsl(150, 100%, 66%);
+}
+
+@media (max-width: 700px) {
+  .mainFrame {
+    width: 100%;
+    height: auto;
+    scale: 0.9;
+    gap: 30px;
+  }
+
+  .outsideButton:hover {
+    box-shadow: 0 0 80px hsl(150, 100%, 66%);
+  }
+
+  .outsideButton:active {
+    box-shadow: none;
+  }
+}

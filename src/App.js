@@ -1,9 +1,10 @@
 import "./App.css";
+import AdviceComponent from "./components/AdviceComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <AdviceComponent />
     </div>
   );
 }

@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/random-advice-react-app-h_yqvDOGBX)
 - Live Site URL: [Advice app generator](https://funky-advice-app.netlify.app)
 
 ## My process
